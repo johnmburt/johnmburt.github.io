@@ -23,6 +23,7 @@ My favorite thing about computers is not what they currently do, but what they c
 
 ---
 [My Work Experience](/work_experience)
+<br><br>
 <img src="images/work_ahead_smaller.jpg?raw=true"/>
 
 ---
