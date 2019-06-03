@@ -6,13 +6,19 @@
 
 This past semester I transferred into the Advanced Solutions team at Siemens Software. I got the chance to pick what I was working on within the team, and I chose to work on the virtual and augmented reality development position. The main project that I took on during the semester was to implement physics engines into the existing project that had none prior. This was done in the Unity Game Engine. It was very cool to have such a big impact on this project, because of the small size of the project and team that was working on it. 
 
+**Technical skills used**: C#, Unity, BulletPhysics Engine, Python, SteamVR
+
 ### 2. Summer 2018 Semester
 
 During the summer I continued working on the Lattice feature, however with a different goal in mind. Much of the early stage development had already been done, but there were still some improvements to be made. Much of the semester was spent testing and implementing an adaptive algorithm that saved a lot of time during the generation of the structure. The lattice structures were very high resolution; however the scale of the model made the accuracy irrelevant. The scaling down changed render time from many minutes down to a few seconds. Finding the optimal balance between time and quality between many controlling variables was an important stage within the final product. 
 
+**Technical skills used**: C++, Python, VBA
+
 ### 3. Fall 2017 Semester
 
 My second semester I transferred into the Siemens NX Modeling Team. I began work getting used to the pre-existing code, as well as the much larger framework that had been in existence for the majority of my lifetime. I was tasked with development on the Lattice feature, where modeled parts could be filled in with lattice of that would maintain structural rigidity while saving a significant amount of material. As the saying goes *"Anyone can build a bridge. But only an engineer can build a bridge that barely stands."* It is very cool to work on a product that will be used by many thousands of people, and potentially make a pretty large difference. 
+
+**Technical skills used**: C++, Python
 
 ### 4. Summer 2017 Semester
 
