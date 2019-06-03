@@ -1,7 +1,3 @@
-## Portfolio
-
----
-
 ## About Me
 
 Upon the realization that being tall does not equate to a natural ability to play basketball, I stuck with my passion of playing with computers. I started early by taking the family computer apart and piecing it back together and hoping it would still be functional. That was one of the first times I learned that you don't always get more than one chance when you mess up with wiring a computer. 
@@ -14,15 +10,16 @@ My favorite thing about computers is not what they currently do, but what they c
 
 ---
 
-### Projects and Experiences
+## Projects and Experiences
 
-[Discord Reverse Image Search Bot](/project_page1)
+[Discord Reverse Image Search Bot](/discord_search_bot)
 <br><br>
 <img src="https://discordapp.com/assets/20d185289ca0178b8dd30d7605f6dc72.svg"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[ThePageFlip](/thepageflip)
+<br><br>
+<img src="images/thepageflip.jpg?raw=true"/>
 
 ---
 [Project 3 Title](http://example.com/)
