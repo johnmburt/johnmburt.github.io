@@ -19,7 +19,7 @@ My favorite thing about computers is not what they currently do, but what they c
 ---
 [ThePageFlip](/thepageflip)
 <br><br>
-<img src="images/thepageflip.jpg?raw=true"/>
+<img src="images/thepageflip_smaller.jpg?raw=true"/>
 
 ---
 [Project 3 Title](http://example.com/)
