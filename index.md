@@ -27,3 +27,9 @@ My favorite thing about computers is not what they currently do, but what they c
 <img src="images/work_ahead_smaller.jpg?raw=true"/>
 
 ---
+
+[YouTube Music Projects](/youtube_channel)
+<br><br>
+<img src="images/op1-simplified_smallerr.jpg"/>
+
+---
