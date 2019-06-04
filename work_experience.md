@@ -12,16 +12,16 @@ This past semester I transferred into the Advanced Solutions team at Siemens Sof
 
 During the summer I continued working on the Lattice feature, however with a different goal in mind. Much of the early stage development had already been done, but there were still some improvements to be made. Much of the semester was spent testing and implementing an adaptive algorithm that saved a lot of time during the generation of the structure. The lattice structures were very high resolution; however the scale of the model made the accuracy irrelevant. The scaling down changed render time from many minutes down to a few seconds. Finding the optimal balance between time and quality between many controlling variables was an important stage within the final product. 
 
-**Technical skills used**: C++, Python, VBA
+**Technical skills used**: C++, Python, VBA, 3D Printing
 
 ### 3. Fall 2017 Semester
 
 My second semester I transferred into the Siemens NX Modeling Team. I began work getting used to the pre-existing code, as well as the much larger framework that had been in existence for the majority of my lifetime. I was tasked with development on the Lattice feature, where modeled parts could be filled in with lattice of that would maintain structural rigidity while saving a significant amount of material. As the saying goes *"Anyone can build a bridge. But only an engineer can build a bridge that barely stands."* It is very cool to work on a product that will be used by many thousands of people, and potentially make a pretty large difference. 
 
-**Technical skills used**: C++, Python
+**Technical skills used**: C++, Python, 3D Printing
 
 ### 4. Summer 2017 Semester
 
 During my first semester working on co-op, I started out working on a team with 6 other co-op students on a web automation testing suite. This included recording tests, playing back and recording any changes that occured that were unexpected relative to when the test was recorded. Analytics for regressions could be analyzed to determine problems and reduce man hours spent testing and verifying functionality.
 
-**Technical skills used**: Java, Regular Expressions, VBA, Javascript
+**Technical skills used**: Java, Regular Expressions, VBA, Javascript, 
