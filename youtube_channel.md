@@ -4,4 +4,4 @@
 
 <img src="images/op1-simplified_smallerr.jpg?raw=true"/>
 
-<iframe src="https://youcount.github.io/e/#!/Thomas+Barlow" height="100" width="250" frameborder="0"></iframe>
+<iframe src="https://youcount.github.io/e/#!/Thomas+Barlow" height="150" width="400" frameborder="0"></iframe>
