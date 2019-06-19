@@ -33,3 +33,9 @@ My favorite thing about computers is not what they currently do, but what they c
 <img src="images/op1-simplified_smallerr.jpg" href="/youtube_channel"/>
 
 ---
+
+[Skribb.io Automated Drawing Bog](/skribblio_bot)
+<br><br>
+<img src="https://skribbl.io/res/logo.gif" href="/skribblio_bot/"/>
+
+---
