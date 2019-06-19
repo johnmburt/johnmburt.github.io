@@ -8,4 +8,4 @@
 
 **Flaws and Potential Improvements:** The largest recurring problem seems to be finding the most accurate image that can be recognized. For example, if the word is movie. Searching movie might end up with results of movie posters, or something else that is trending at the time instead of just a camera. Part of this can be negated by adding "word art" to the beginning of the search to ensure that the pictures are very simple and recognizable. 
 
-#<img src="images/Discord_2019-06-02_23-44-33.png?raw=true"/>
+<img src="images/Discord_2019-06-02_23-44-33.png?raw=true"/>
