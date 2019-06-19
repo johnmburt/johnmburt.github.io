@@ -36,6 +36,6 @@ My favorite thing about computers is not what they currently do, but what they c
 
 [Skribb.io Automated Drawing Bog](/skribblio_bot)
 <br><br>
-<img src="https://skribbl.io/res/logo.gif" href="/skribblio_bot/"/>
+<img src="https://skribbl.io/res/logo.gif" href="/skribblio_bot"/>
 
 ---
