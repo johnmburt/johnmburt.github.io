@@ -12,6 +12,24 @@ My favorite thing about computers is not what they currently do, but what they c
 
 ## Projects and Experiences
 
+[My Work Experience](/work_experience)
+<br><br>
+<img src="images/work_ahead_smaller.jpg?raw=true" href="/work_experience"/>
+
+---
+
+[Skribb.io Automated Drawing Bog](/skribblio_bot)
+<br><br>
+<img src="https://skribbl.io/res/logo.gif" href="/skribblio_bot"/>
+
+---
+
+[YouTube Music Projects](/youtube_channel)
+<br><br>
+<img src="images/op1-simplified_smallerr.jpg" href="/youtube_channel"/>
+
+---
+
 [Discord Reverse Image Search Bot](/discord_search_bot)
 <br><br>
 <img src="https://discordapp.com/assets/20d185289ca0178b8dd30d7605f6dc72.svg" href="/discord_search_bot"/>
@@ -22,20 +40,6 @@ My favorite thing about computers is not what they currently do, but what they c
 <img src="images/thepageflip_smaller.jpg?raw=true" href="/thepageflip"/>
 
 ---
-[My Work Experience](/work_experience)
-<br><br>
-<img src="images/work_ahead_smaller.jpg?raw=true" href="/work_experience"/>
 
----
 
-[YouTube Music Projects](/youtube_channel)
-<br><br>
-<img src="images/op1-simplified_smallerr.jpg" href="/youtube_channel"/>
 
----
-
-[Skribb.io Automated Drawing Bog](/skribblio_bot)
-<br><br>
-<img src="https://skribbl.io/res/logo.gif" href="/skribblio_bot"/>
-
----
