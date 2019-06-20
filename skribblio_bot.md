@@ -11,12 +11,22 @@
 
 **How does it look? The prompt is papaya.**
 <img src="images/drawing_prompt.png?raw=true"/>
+<br>
 Here's the window that opens up with the browser when the script starts. 
+<br>
 <img src="images/papaya_gui_selection.png?raw=true"/>
+<br>
 After hitting enter, it's time to pick that middle image because it looks the best.
+<br>
 <img src="images/papaya_start.png?raw=true"/>
+<br>
 It starts with the gray outline, it usually conveys a good beginning depiction of the object.
+<br>
 <img src="images/papaya_partial.png?raw=true"/>
+<br>
 As you can see it's started to fill in the colored parts, but not fully filled to keep things quick.
-<img src="images/papaya_completed.png?raw=true"/>
+<br>
+<img src="images/papaya_done.png?raw=true"/>
+<br>
 Here is the final drawing. Filled in and colored a little nicer than I could do by hand!
+<br>
