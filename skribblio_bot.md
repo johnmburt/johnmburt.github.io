@@ -8,4 +8,15 @@
 
 **Flaws and Potential Improvements:** The largest recurring problem seems to be finding the most accurate image that can be recognized. For example, if the word is movie. Searching movie might end up with results of movie posters, or something else that is trending at the time instead of just a camera. Part of this can be negated by adding "word art" to the beginning of the search to ensure that the pictures are very simple and recognizable. 
 
-<img src="images/Discord_2019-06-02_23-44-33.png?raw=true"/>
+
+**How does it look? The prompt is papaya.**
+<img src="images/drawing_prompt.png?raw=true"/>
+Here's the window that opens up with the browser when the script starts. 
+<img src="images/papaya_gui_selection.png?raw=true"/>
+After hitting enter, it's time to pick that middle image because it looks the best.
+<img src="images/papaya_start.png?raw=true"/>
+It starts with the gray outline, it usually conveys a good beginning depiction of the object.
+<img src="images/papaya_partial.png?raw=true"/>
+As you can see it's started to fill in the colored parts, but not fully filled to keep things quick.
+<img src="images/papaya_completed.png?raw=true"/>
+Here is the final drawing. Filled in and colored a little nicer than I could do by hand!
