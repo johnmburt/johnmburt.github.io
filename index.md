@@ -14,37 +14,37 @@ My favorite thing about computers is not what they currently do, but what they c
 
 [My Work Experience](/work_experience)
 <br><br>
-<img src="images/work_ahead_smaller.jpg?raw=true" href="http://thomasjbarlow.com/work_experience"/>
+<img src="images/work_ahead.jpg?raw=true" style="width:217px;height:150px;" href="http://thomasjbarlow.com/work_experience"/>
 
 ---
 
 [Skribb.io Automated Drawing Bog](/skribblio_bot)
 <br><br>
-<img src="https://skribbl.io/res/logo.gif" href="http://thomasjbarlow.com/skribblio_bot"/>
+<img src="https://skribbl.io/res/logo.gif" style="width:434px;height:150px;" href="http://thomasjbarlow.com/skribblio_bot"/>
 
 ---
 
 [YouTube Music Projects](/youtube_channel)
 <br><br>
-<img src="images/op1-simplified_smallerr.jpg" href="http://thomasjbarlow.com/youtube_channel"/>
+<img src="images/op1-simplified.jpg" style="width:150px;height:150px;" href="http://thomasjbarlow.com/youtube_channel"/>
 
 ---
 
 [Model Design and 3D Printing](/model_design)
 <br><br>
-<img src="https://cdn.thingiverse.com/renders/ea/1b/d0/88/82/e57b3c2c844194c33cb7e79efb715a03_preview_featured.jpg" href="http://thomasjbarlow.com/model_design"/>
+<img src="https://cdn.thingiverse.com/renders/ea/1b/d0/88/82/e57b3c2c844194c33cb7e79efb715a03_preview_featured.jpg" style="width:245px;height:150px;" href="http://thomasjbarlow.com/model_design"/>
 
 ---
 
 [Discord Reverse Image Search Bot](/discord_search_bot)
 <br><br>
-<img src="https://discordapp.com/assets/20d185289ca0178b8dd30d7605f6dc72.svg" href="http://thomasjbarlow.com/discord_search_bot"/>
+<img src="https://discordapp.com/assets/20d185289ca0178b8dd30d7605f6dc72.svg" style="width:190px;height:150px;" href="http://thomasjbarlow.com/discord_search_bot"/>
 
 ---
 
 [ThePageFlip](/thepageflip)
 <br><br>
-<img src="images/thepageflip_smaller.jpg?raw=true" href="http://thomasjbarlow.com/thepageflip"/>
+<img src="images/thepageflip.jpg?raw=true" style="width:150px;height:150px;" href="http://thomasjbarlow.com/thepageflip"/>
 
 ---
 
