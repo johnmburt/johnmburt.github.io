@@ -20,7 +20,7 @@ My favorite thing about computers is not what they currently do, but what they c
 
 [Skribb.io Automated Drawing Bog](/skribblio_bot)
 <br><br>
-<img src="https://skribbl.io/res/logo.gif" style="width:434px;height:150px;" href="http://thomasjbarlow.com/skribblio_bot"/>
+<img src="https://skribbl.io/res/logo.gif" style="width:534px;height:150px;" href="http://thomasjbarlow.com/skribblio_bot"/>
 
 ---
 
@@ -32,7 +32,7 @@ My favorite thing about computers is not what they currently do, but what they c
 
 [Model Design and 3D Printing](/model_design)
 <br><br>
-<img src="https://cdn.thingiverse.com/renders/ea/1b/d0/88/82/e57b3c2c844194c33cb7e79efb715a03_preview_featured.jpg" style="width:245px;height:150px;" href="http://thomasjbarlow.com/model_design"/>
+<img src="https://cdn.thingiverse.com/renders/ea/1b/d0/88/82/e57b3c2c844194c33cb7e79efb715a03_preview_featured.jpg" style="width:215px;height:150px;" href="http://thomasjbarlow.com/model_design"/>
 
 ---
 
