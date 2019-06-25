@@ -6,7 +6,7 @@ About a decade later, I help anyone who is interested in constructing a computer
 
 I learned to merge this love for computers with the software that used it after being introduced to coding early in high school. This experience has enlightened me, while at the same time exposing me to the vast potential that grows more and more as time goes by. 
 
-My favorite thing about computers is not what they currently do, but what they could potentially do. Any technical experience should have an expiration date, because the only thing that is guaranteed is change. As someone who loves change, and the new experiences that follow alongside, I welcome the future. 
+My favorite thing about computers is not what they currently do, but what they could potentially do. Any technical experience should have an expiration date, because the only thing that is guaranteed is change. As someone who loves change, and the new experiences that follow alongside, I welcome the future.  
 
 ---
 
