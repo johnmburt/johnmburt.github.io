@@ -20,7 +20,7 @@ My favorite thing about computers is not what they currently do, but what they c
 
 [Custom 3D Printed Lithophanes](/custom_lithophanes)
 <br><br>
-<img src="images/lithophanes/DSC_4059_smaller.png" style="width:534px;height:150px;" href="http://thomasjbarlow.com/custom_lithophanes"/>
+<img src="images/lithophanes/DSC_4059_smaller.png" style="width:280px;height:216px;" href="http://thomasjbarlow.com/custom_lithophanes"/>
 
 ---
 
