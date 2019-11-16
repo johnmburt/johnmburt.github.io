@@ -21,7 +21,3 @@
 <img src="images/lithophanes/DSC_4061.JPG?raw=true"/>
 
 <img src="images/lithophanes/DSC_4067.JPG?raw=true"/>
-
-<img src="images/lithophanes/DSC_4062.JPG?raw=true"/>
-
-<img src="images/lithophanes/DSC_4066.JPG?raw=true"/>
