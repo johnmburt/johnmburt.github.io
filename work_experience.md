@@ -4,7 +4,9 @@
 
 ### 1. Fall 2019 Semester
 
-This past semester was a continuation of my work on the Advanced Solutions team. Jumping right back in, I was able to complete a functional prototype of NVIDIA FleX particle-based fluid simulation in VR. Realtime loaded physics models would interact with fluid in a way that was very visually appealing, as well as seemingly accurate. More time was put into using game engines as a source of realtime VFX, and I started working with Unreal Engine 4 with NVIDIA GameWorks. It has a library called NVIDIA Turbulence, which I enabled functionality to create a VR wind tunnel with a few hundred thousand air particles. Around the midpoint of the semester, I began learning about and working to implement Snorkel Weak Supervision Learning. The aim was to use Snorkel's ability to create labeling functions to intelligently label data without a very large amount of user marked data. 
+This past semester was a continuation of my work on the Advanced Solutions team. Jumping right back in, I was able to complete a functional prototype of NVIDIA FleX particle-based fluid simulation in VR. Realtime loaded physics models would interact with fluid in a way that was very visually appealing, as well as seemingly accurate. More time was put into using game engines as a source of realtime VFX, and I started working with Unreal Engine 4 with NVIDIA GameWorks. It has a library called NVIDIA Turbulence, which I enabled functionality to create a VR wind tunnel with a few hundred thousand air particles. Around the midpoint of the semester, I began learning about and working to implement Snorkel Weak Supervision Machine Learning. The aim was to use Snorkel's ability to create labeling functions to intelligently label data without a very large amount of user marked data. 
+
+**Technical skills used**: C#, Unity, Python, UE4, Snorkel Weak Supervision Machine Learning
 
 ### 2. Spring 2019 Semester
 
