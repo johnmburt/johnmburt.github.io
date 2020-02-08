@@ -2,19 +2,17 @@
 
 ### NOTE: this site under construction
 
-I started my career in academia, studying Cognitive Psychology and Animal Behavior. Then I had a great idea for an animal borne wireless social network sensing platform, got a grant to develop it and founded a small company to manufacture and sell my tag technology. 
+I started my career in academia, studying Cognitive Psychology, Neurobiology and Animal Behavior. Then I had a great idea for an wireless tag for social network monitoring, got a grant to develop it and founded a small company to manufacture and sell my tag technology. 
 
 Recently I decided to level up for a career in Data Science. For the last year I've worked as a senior organizer for the Portland Data Science meetup group and completed the intensive 6 month Springboard Data Science Career course. 
 
 Skills highlights: 
 
-SCIENCE: Conducted all aspects of scientific research for 10 years: grant proposals, study design, field/lab work, research lab management, peer reviewed articles, conference talks. 
+SCIENCE: All aspects of scientific research for 10 years. 
 
-TECHNOLOGY: I've been coding since high school, mainly in C, C++, Matlab and Python. My software projects have included acoustic signal processing, experimental data analysis, statistics and visualization, Windows applications, experimental hardware control software and embedded devices.
+TECHNOLOGY: Coding since high school, CS minor in college, C, C++, Matlab, Python, SQL. Software: audio signal processing, data analysis, statistics and visualization, Windows apps, hardware control, embedded devices.
 
-DATA SCIENCE: I've worked on numerous Python based self-directed data science projects with explorations in deep learning (CNNs, RNNs, etc), NLP, ML, financial time series analysis, sentiment analysis, and interactive visualizations. Completed Springboard Data Science Career program.
-
-SPECIALIZATIONS: Python, experimental design, machine learning, deep learning, data analysis, visualization, presentation and training. 
+DATA SCIENCE: Numerous Python based self-directed data science projects. Deep learning (CNNs, RNNs, etc), NLP, ML, financial time series analysis, sentiment analysis, and interactive visualizations. Completed Springboard Data Science Career program.
 
 ---
 
