@@ -1,5 +1,7 @@
 ## About Me
 
+### NOTE: this site under construction
+
 I started my career in academia, studying Cognitive Psychology and Animal Behavior. Then I had a great idea for an animal borne wireless social network sensing platform, got a grant to develop it and founded a small company to manufacture and sell my tag technology. 
 
 Recently I decided to level up for a career in Data Science. For the last year I've worked as a senior organizer for the Portland Data Science meetup group and completed the intensive 6 month Springboard Data Science Career course. 
