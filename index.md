@@ -16,9 +16,9 @@ DATA SCIENCE: Numerous Python based self-directed data science projects. Deep le
 
 ## Projects and Experiences
 
-[Boardgame recommender system](/boardgame_recommender)
+[## Boardgame recommender system](/boardgame_recommender)
 <br><br>
-<img src="images/projects/bg_rec_app_simple.png" style="width:100px;" href="https://johnmburt.github.io/boardgame_recommender"/>
+<img src="images/projects/bg_rec_app_simple.png" width="200" href="https://johnmburt.github.io/boardgame_recommender"/>
 
 ---
 
