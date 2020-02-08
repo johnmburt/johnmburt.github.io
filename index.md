@@ -1,7 +1,5 @@
 ## About Me
 
-### NOTE: this site under construction
-
 I started my career in academia, studying Cognitive Psychology, Neurobiology and Animal Behavior. Then I had a great idea for an wireless tag for social network monitoring, got a grant to develop it and founded a small company to manufacture and sell my tag technology. 
 
 Recently I decided to level up for a career in Data Science. For the last year I've worked as a senior organizer for the Portland Data Science meetup group and completed the intensive 6 month Springboard Data Science Career course. 
@@ -18,15 +16,9 @@ DATA SCIENCE: Numerous Python based self-directed data science projects. Deep le
 
 ## Projects and Experiences
 
-[My Work Experience](/work_experience)
+[Boardgame recommender system](/boardgame_recommender)
 <br><br>
-<img src="images/work_ahead.jpg?raw=true" style="width:217px;height:150px;" href="https://thomasjbarlow.com/work_experience"/>
-
----
-
-[Custom 3D Printed Lithophanes](/custom_lithophanes)
-<br><br>
-<img src="images/lithophanes/DSC_4059_smaller.png" style="width:280px;height:216px;" href="https://thomasjbarlow.com/custom_lithophanes"/>
+<img src="images/images/projects/bg_rec_app_simple.png" style="width:280px;height:216px;" href="https://johnmburt.github.io/boardgame_recommender"/>
 
 ---
 
