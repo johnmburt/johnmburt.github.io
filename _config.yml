@@ -1,27 +1,17 @@
-title: Thomas Barlow # your name (or website title) here
-logo: "/images/headshot.png?raw=true" # your photo (or logo) here
+title: John Burt # your name (or website title) here
+logo: "/images/20190210_104052_john_portrait_v3.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  Hello, I'm a fourth year computer engineering student at the University of Cincinnati. My last semester was spent working on virtual reality developments and Weak Supervision Machine Learning at Siemens Software. 
+  I'm a Data Scientist with a research science and coding background. Experienced with machine learning, deep learning and analytics. Other areas of interest include natural language processing and behavioral analysis. 
   <br><br>
-  <a href ="mailto: contact@thomasjbarlow.com">Contact Me</a>
+  <a href ="mailto: johnmburt65@gmail.com">Contact Me</a>
   <br><br>
-  <a href="https://www.linkedin.com/in/thomas-barlow/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/john-burt-44241911//">View My LinkedIn Profile</a> 
   <br><br>
-  <a href="https://thomasjbarlow.com/work_experience">Work Experience</a> 
-  <br>
-  <a href="https://thomasjbarlow.com/custom_lithophanes">3D Printed Lithophanes</a>
-  <br>
-  <a href="https://thomasjbarlow.com/skribblio_bot">Skribblio Drawing Bot</a> 
-  <br>
-  <a href="https://thomasjbarlow.com/youtube_channel">YouTube Channel</a> 
-  <br>
-  <a href="https://thomasjbarlow.com/model_design">Model Design and 3D Printing</a> 
-  <br>
-  <a href="https://thomasjbarlow.com/discord_search_bot">Discord Search Bot</a> 
+  <a href="https://johnmburt.github.io/work_experience">Work Experience</a> 
   <br>
   
 
 
   
 theme: jekyll-theme-minimal
-google_analytics: UA-141278946-1 # your Google Analytics tracking ID here
+google_analytics: UA-158072385-1 # your Google Analytics tracking ID here
