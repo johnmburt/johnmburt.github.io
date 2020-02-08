@@ -1,4 +1,4 @@
-## About Me
+# About Me
 
 I started my career in academia, studying Cognitive Psychology, Neurobiology and Animal Behavior. Then I had a great idea for an wireless tag for social network monitoring, got a grant to develop it and founded a small company to manufacture and sell my tag technology. 
 
@@ -14,11 +14,11 @@ DATA SCIENCE: Numerous Python based self-directed data science projects. Deep le
 
 ---
 
-## Projects and Experiences
+# Projects and Experiences
 
-[## Boardgame recommender system](/boardgame_recommender)
+## [Boardgame recommender system](/boardgame_recommender)
 <br><br>
-<img src="images/projects/bg_rec_app_simple.png" width="200" href="https://johnmburt.github.io/boardgame_recommender"/>
+<img src="images/projects/bg_rec_app_simple.png" width="300" href="https://johnmburt.github.io/boardgame_recommender"/>
 
 ---
 
