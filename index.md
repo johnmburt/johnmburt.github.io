@@ -1,10 +1,8 @@
 ## About Me
 
- My passion is creative problem solving and idea development in technology. 
+I started my career in academia, studying Cognitive Psychology and Animal Behavior. Then I had a great idea for an animal borne wireless social network sensing platform, got a grant to develop it and founded a small company to manufacture and sell my tag technology. 
 
-I started my career in academia, studying Cognitive Psychology and Animal Behavior. Then I had a great idea for an animal borne wireless sensing platform, got a grant to develop it and founded a small company where I wore all hats: sales, hardware and software development, delivery and end user training for system deployment. 
-
-Recently I decided to shift gears and level up for a career in Data Science. For the last year I've worked as a senior organizer for the Portland Data Science meetup group and completed the and intensive 6 month Springboard Data Science Career course. 
+Recently I decided to level up for a career in Data Science. For the last year I've worked as a senior organizer for the Portland Data Science meetup group and completed the intensive 6 month Springboard Data Science Career course. 
 
 Skills highlights: 
 
