@@ -1,7 +1,9 @@
 # Projects and Experiences
 
 ## [Boardgame recommender system](/boardgame_recommender)
+<a href="default.asp">
 <img src="images/projects/bg_rec_app_simple.png" width="400" href="https://johnmburt.github.io/boardgame_recommender"/>
+</a>
 
 ---
 
