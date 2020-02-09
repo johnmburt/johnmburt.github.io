@@ -2,13 +2,17 @@ title: John Burt # your name (or website title) here
 logo: "/images/20190210_104052_john_portrait_v3.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   I'm a Data Scientist with a research science and coding background. Experienced with machine learning, deep learning and analytics. Other areas of interest include natural language processing and behavioral analysis. 
-  <br><br>
-  <a href ="mailto: johnmburt65@gmail.com">Contact Me</a>
-  <br><br>
-  <a href="https://www.linkedin.com/in/john-burt-44241911//">View My LinkedIn Profile</a> 
-  <br><br>
-  <a href="https://johnmburt.github.io/work_experience">Work Experience</a> 
   <br>
+  <a href=https://johnmburt.github.io/about_me.md">About me</a> 
+  <br>
+  <a href=https://johnmburt.github.io/index.md">Projects</a> 
+  <br>
+  <a href ="mailto: johnmburt65@gmail.com">Contact Me</a>
+  <br>
+  <a href="https://www.linkedin.com/in/john-burt-44241911">View My LinkedIn Profile</a> 
+  <br>
+  <a href="https://johnmburt.github.io/pdf/John_Burt_resume_updated_v2.pdf">Resume</a> 
+  
   
 
 
