@@ -1,14 +1,16 @@
 # Projects and Experiences
 
 ## [Boardgame recommender system](/boardgame_recommender)
-<a href="default.asp">
-<img src="images/projects/bg_rec_app_simple.png" width="400" href="https://johnmburt.github.io/boardgame_recommender"/>
+<a href="https://johnmburt.github.io/boardgame_recommender">
+  <img src="images/projects/bg_rec_app_simple.png" width="400"/>
 </a>
 
 ---
 
 ## [Detecting trolls on Reddit](/reddit_troll_detector)
-<img src="images/projects/negative_comment_text_wordcloud.png" width="400" href="https://johnmburt.github.io/reddit_troll_detector"/>
+<a href="https://johnmburt.github.io/reddit_troll_detector">
+  <img src="images/projects/negative_comment_text_wordcloud.png" width="400" />
+</a>
 
 ---
 
