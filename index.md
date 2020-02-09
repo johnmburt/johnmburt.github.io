@@ -1,56 +1,36 @@
-# About Me
-
-I started my career in academia, studying Cognitive Psychology, Neurobiology and Animal Behavior. Then I had a great idea for an wireless tag for social network monitoring, got a grant to develop it and founded a small company to manufacture and sell my tag technology. 
-
-Recently I decided to level up for a career in Data Science. For the last year I've worked as a senior organizer for the Portland Data Science meetup group and completed the intensive 6 month Springboard Data Science Career course. 
-
-Skills highlights: 
-
-SCIENCE: All aspects of scientific research for 10 years. 
-
-TECHNOLOGY: Coding since high school, CS minor in college, C, C++, Matlab, Python, SQL. Software: audio signal processing, data analysis, statistics and visualization, Windows apps, hardware control, embedded devices.
-
-DATA SCIENCE: Numerous Python based self-directed data science projects. Deep learning (CNNs, RNNs, etc), NLP, ML, financial time series analysis, sentiment analysis, and interactive visualizations. Completed Springboard Data Science Career program.
-
----
-
 # Projects and Experiences
 
 ## [Boardgame recommender system](/boardgame_recommender)
-
 <img src="images/projects/bg_rec_app_simple.png" width="300" href="https://johnmburt.github.io/boardgame_recommender"/>
 
 ---
 
-[Skribb.io Automated Drawing Bog](/skribblio_bot)
-<br><br>
-<img src="https://skribbl.io/res/logo.gif" style="width:534px;height:150px;" href="https://thomasjbarlow.com/skribblio_bot"/>
+## [Detecting trolls on Reddit](/reddit_troll_detector)
+<img src="images/projects/negative_comment_text_wordcloud.png" width="500" href="https://johnmburt.github.io/reddit_troll_detector"/>
 
 ---
 
-[YouTube Music Projects](/youtube_channel)
-<br><br>
-<img src="images/op1-simplified.jpg" style="width:150px;height:150px;" href="https://thomasjbarlow.com/youtube_channel"/>
+## Music genre ID
+<img src="images/projects/harmonic_decomp.png
+" width="300" href="https://github.com/johnmburt/projects/tree/master/music_genre_id"/>
 
 ---
 
-[Model Design and 3D Printing](/model_design)
-<br><br>
-<img src="https://cdn.thingiverse.com/renders/ea/1b/d0/88/82/e57b3c2c844194c33cb7e79efb715a03_preview_featured.jpg" style="width:215px;height:150px;" href="https://thomasjbarlow.com/model_design"/>
+## NOAA severe weather interactive 4D map
+<img src="images/projects/weather_event_map.png" width="400" href="https://github.com/johnmburt/projects/tree/master/NOAA_weather_events"/>
 
 ---
 
-[Discord Reverse Image Search Bot](/discord_search_bot)
-<br><br>
-<img src="https://discordapp.com/assets/20d185289ca0178b8dd30d7605f6dc72.svg" style="width:190px;height:150px;" href="https://thomasjbarlow.com/discord_search_bot"/>
+## Chinese character image classification
+<img src="images/projects/chinese_character_images.png" width="300" href="https://github.com/johnmburt/projects/tree/master/chinese_characters"/>
 
 ---
 
-[ThePageFlip](/thepageflip)
-<br><br>
-<img src="images/thepageflip.jpg?raw=true" style="width:150px;height:150px;" href="https://thomasjbarlow.com/thepageflip"/>
+## Interactive traffic accident density map
+<img src="images/projects/crash_map.png" width="300" href="https://github.com/johnmburt/projects/tree/master/ODOT_crash_map"/>
 
 ---
 
-
+## Factors that predict poverty
+<img src="images/projects/feature_importances.png" width="300" href="https://github.com/johnmburt/projects/tree/master/residential_energy_use"/>
 
