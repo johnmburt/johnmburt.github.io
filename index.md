@@ -11,8 +11,7 @@
 ---
 
 ## Music genre ID
-<img src="images/projects/harmonic_decomp.png
-" width="300" href="https://github.com/johnmburt/projects/tree/master/music_genre_id"/>
+<img src="images/projects/harmonic_decomp.png" width="400" href="https://github.com/johnmburt/projects/tree/master/music_genre_id"/>
 
 ---
 
