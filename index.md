@@ -15,25 +15,34 @@
 ---
 
 ## Music genre ID
-<img src="images/projects/harmonic_decomp.png" width="400" href="https://github.com/johnmburt/projects/tree/master/music_genre_id"/>
+<a href="https://github.com/johnmburt/projects/tree/master/music_genre_id">
+<img src="images/projects/harmonic_decomp.png" width="400" />
+</a>
 
 ---
 
 ## NOAA severe weather interactive 4D map
-<img src="images/projects/weather_event_map.png" width="400" href="https://github.com/johnmburt/projects/tree/master/NOAA_weather_events"/>
+<a href="https://github.com/johnmburt/projects/tree/master/NOAA_weather_events">
+<img src="images/projects/weather_event_map.png" width="400"/>
 
 ---
 
 ## Chinese character image classification
-<img src="images/projects/chinese_character_images.png" width="400" href="https://github.com/johnmburt/projects/tree/master/chinese_characters"/>
+<a href="https://github.com/johnmburt/projects/tree/master/chinese_characters">
+<img src="images/projects/chinese_character_images.png" width="400"/>
+</a>
 
 ---
 
 ## Interactive traffic accident density map
-<img src="images/projects/crash_map.png" width="400" href="https://github.com/johnmburt/projects/tree/master/ODOT_crash_map"/>
+<a href="https://github.com/johnmburt/projects/tree/master/ODOT_crash_map">
+<img src="images/projects/crash_map.png" width="400"/>
+</a>
 
 ---
 
 ## Factors that predict poverty
-<img src="images/projects/feature_importances.png" width="400" href="https://github.com/johnmburt/projects/tree/master/residential_energy_use"/>
+<a href="https://github.com/johnmburt/projects/tree/master/residential_energy_use">
+<img src="images/projects/feature_importances.png" width="400" />
+</a>
 
