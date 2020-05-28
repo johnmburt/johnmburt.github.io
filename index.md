@@ -1,5 +1,12 @@
 # Projects and Experiences
 
+## [Deploying a Deep Learning image classifier API using AWS SageMaker, Lambda and API Gateway](/SageMaker_dog_breed_id_API)
+<a href="https://johnmburt.github.io/SageMaker_dog_breed_id_API">
+  <img src="images/projects/dog_mosaic.png" width="400"/>
+</a>
+
+---
+
 ## [Boardgame recommender system](/boardgame_recommender)
 <a href="https://johnmburt.github.io/boardgame_recommender">
   <img src="images/projects/bg_rec_app_simple.png" width="400"/>
