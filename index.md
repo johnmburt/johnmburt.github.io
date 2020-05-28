@@ -1,6 +1,6 @@
 # Projects and Experiences
 
-## [Deploying a Deep Learning image classifier API using AWS SageMaker, Lambda and API Gateway](/SageMaker_dog_breed_id_API)
+## [Deploying an AWS SageMaker Deep Learning image classifier model as an inference API](/SageMaker_dog_breed_id_API)
 <a href="https://johnmburt.github.io/SageMaker_dog_breed_id_API">
   <img src="images/projects/dog_mosaic.png" width="400"/>
 </a>
