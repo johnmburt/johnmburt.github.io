@@ -1,4 +1,4 @@
-## Deploying an AWS SageMaker Deep Learning image classifier model as a microservice
+## Training a SageMaker Deep Learning model and deploying it as a microservice
 
 ![Dog mosaic](images/projects/dog_mosaic.png)
 
