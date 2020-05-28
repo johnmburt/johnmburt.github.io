@@ -1,6 +1,6 @@
 # Projects and Experiences
 
-## [Training a SageMaker Deep Learning model and deploying it as an API](/SageMaker_dog_breed_id_API)
+## [Training a SageMaker Deep Learning model and deploying it as a microservice](/SageMaker_dog_breed_id_API)
 <a href="https://johnmburt.github.io/SageMaker_dog_breed_id_API">
   <img src="images/projects/dog_mosaic.png" width="400"/>
 </a>
