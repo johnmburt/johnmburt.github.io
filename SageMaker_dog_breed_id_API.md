@@ -1,8 +1,84 @@
-## Training a SageMaker Deep Learning model and deploying it as a microservice
+# Training a SageMaker Deep Learning model and deploying it as a microservice
+
+## How I trained a SageMaker image classifier model to ID dog breeds from image, and exposed the model on Amazon’s API Gateway.
+
+### John Burt
+#### May 2020
 
 ![Dog mosaic](images/projects/dog_mosaic.png)
 
+Imagine you’re an app developer, and you want to make a mobile app that tells users the breed of a dog just by pointing their phone at it and taking a picture. This seems like a pretty cool idea, and it could be applied to any number of other things people might want to identify like birds, flowers, cars, etc. The app will need a classifier model to predict the dog breed from an image, and the best models for that are Deep Learning neural networks like ResNet. But DL models are large and processing intensive, so you choose to host your dog breed classifier in the cloud where the mobile app can access it via an API. 
 
-### Class project for AICamp Full Stack Deep Learning in AWS
-### John Burt
-#### March - April 2020
+Luckily for you, AWS SageMaker makes it incredibly easy to build, train and tune machine learning models in the cloud. Once you have a trained model it’s a simple step to implement a scalable inference microservice using the AWS API Gateway. In this post I’ll take you through the basic steps for how to do this using a project I created for AICamp’s class Full Stack Deep Learning in AWS. For this project I did everything from the AWS Management Console. 
+
+Project github site: [Dog breed identification from images](https://github.com/johnmburt/projects/tree/master/AWS/sagemaker_dog_breed_id)
+
+### The data
+
+If I’m going to build a Deep Learning model to ID dog breeds, then I’ll need a lot of labeled dog images. For this I chose the [Stanford Dogs dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/), a set of 20580 images of 120 dog breeds, with 100-150 image samples for each breed. SageMaker expects the model training data to be in the cloud, so I uploaded the images to an S3 bucket, placing them into a folder “dogs”. During model training and testing, I’ll set up my SageMaker training job to access this folder.
+
+
+### The model
+
+SageMaker offers a built-in [image-classifier, which is a ResNet deep learning model](https://docs.aws.amazon.com/sagemaker/latest/dg/image-classification.html). ResNet is a large convolutional neural network, and would normally need a lot more training images than the Stanford Dogs dataset provides, but [SageMaker offers the option of transfer learning](https://docs.aws.amazon.com/sagemaker/latest/dg/IC-HowItWorks.html), which greatly reduces the number of training images required as well as training time. Transfer learning is a procedure where the network is pre-trained to a generic classification task with a very large image dataset, and then you re-train the model using your training set. 
+
+Another training feature that SageMaker provides is [early stopping](https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning-early-stopping.html), where the training job will stop if the model loss metric doesn’t improve or gets worse. Early stopping and transfer learning greatly reduced training times, which resulted in much lower compute costs per job.
+
+### Hyperparameter tuning
+
+You can read about all the SageMaker image classifier [hyperparameters here](https://docs.aws.amazon.com/sagemaker/latest/dg/IC-Hyperparameter.html). I tried several different resnet model sizes, and 50 layers seemed to work well so I chose that. I tried using [hyperparameter tuning](https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning.html) for several other hyperparameters, but ended up canceling the training job because it was eating up processing time and costing me too much. I settled on the following hyperparameters based on manual tweaking. I found that learning rate was most important parameter to ensure good training: too large and the model loss metric would oscillate during training and often never train properly, but too small and the model would take longer than necessary to train. I used a learning rate of 0.0001 here, but I think the ideal rate for this task is actually around 0.0005. Note also that I enabled image augmentation during training, where the training images are randomly cropped, rotated, sheared and color modified. This reduces overfitting and helps the model to generalize better.
+
+#### After tuning and testing, I chose the following hyperparameters:
+
+|Key|Value| |Key|Value|
+|-:|:-|--|-:|:-|
+|augmentation_type|crop_color_transform| |mini_batch_size|32|
+|beta_1|0.9| |momentum|0.9|
+|beta_2|0.999|  |multi_label|0|
+|checkpoint_frequency|1| |num_classes|120|
+|early_stopping|true| |num_layers|50|
+|early_stopping_min_epochs|5| |num_training_samples|16464|
+|early_stopping_patience|5| |optimizer|sgd|
+|early_stopping_tolerance|0| |precision_dtype|float32|
+|epochs|120| |use_pretrained_model|1|
+|eps|1e-8| |use_weighted_loss|0|
+|gamma|0.9| |weight_decay|0.0001|
+|image_shape|3,224,224| | | |
+|learning_rate|0.0001| | | |
+|lr_scheduler_factor|0.1| | | |
+
+
+### The training job
+
+For the model training job I needed to specify the class of each image, as well as which images to use for training and which to use for testing (validation). To do that, I [generated a set of tab delimited text files](https://github.com/johnmburt/projects/blob/master/AWS/sagemaker_dog_breed_id/dog_breed_classifier_gen_LST.ipynb), one for training and one for testing (dog_breeds_all_fold_1_train.lst and dog_breeds_all_fold_1_test.lst), that listed the class ID and path of each training image (training and testing image sets were mutually exclusive). These LST files were placed into the dogs folder on the s3 bucket used for model training. 
+
+From the AWS SageMaker Studio console, I created a training job, selecting the image classifier model and configuring the hyperparameters as above, telling the job where to find the images and the LST files, and specifying additional configurations and an access management role for the model server instance. The training job took 2.7 hrs (costing around $7), and final validation accuracy was 83%.
+
+### Creating the Deep Learning inference microservice
+
+After training the model, I needed to get it running on a server and then expose it to the world via a REST API so that my mobile app can access it. There are three components to this system: 
+
+- The SageMaker model instance and endpoint: an instance of the trained model, with an endpoint allowing access to it.
+- A Lambda function: AWS Lambda acts as a switchboard, using a small piece of your own code to pass images from the API to the model for prediction, and then to pass the model results to the API.
+- The API: AWS API Gateway provides a REST API service.
+
+So how does this all work? In my case it’s very simple: the API receives a POST containing image data for prediction. The API passes the image data to the Lambda function, which converts it to the correct format and passes it to the SageMaker model instance via the model’s endpoint. The model makes a prediction and then returns a result to the Lambda, which passes it to the API and then out to the device that sent the image.
+
+#### Using the API
+
+- In my github project folder there is a notebook that show how to use this API. [dog_breed_id_test_API_manual.ipynb](https://github.com/johnmburt/projects/blob/master/AWS/sagemaker_dog_breed_id/dog_breed_id_test_API_manual.ipynb) lets you select a JPG dog image on your local drive, converts the image to a base64 format, wraps it into a json payload and then passes it to the API URL via a POST request. The model prediction is returned in another json payload. For this notebook to work, you’ll have to swap in your own deployed API URL.
+
+
+
+*** Testing the model performance
+
+![Dog mosaic](images/projects/dog_id_validation_recall_per_breed.png)
+
+
+![Dog mosaic](images/projects/dog_id_validation_confusions.png)
+
+![Dog mosaic](images/projects/dog_id_validation_confusions_examples.png)
+
+
+
+
