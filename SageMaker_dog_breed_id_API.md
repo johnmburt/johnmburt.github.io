@@ -79,15 +79,15 @@ Before you deploy a model to production, it's important to take a closer look at
 
 I [analyzed the trained model performance in more detail](https://github.com/johnmburt/projects/blob/master/AWS/sagemaker_dog_breed_id/dog_breed_id_test_API_valset.ipynb) by evaluating performance of a the test image set across classes. The model has 83% validation accuracy overall, but accuracy was not uniform: some classes performed better and others much worse.
 
-<p align="center"><img src="https://github.com/johnmburt/johnmburt.github.io/blob/master/images/projects/dog_id_validation_recall_per_breed.png"></p>
+<p align="center"><img src="https://johnmburt.github.io/images/projects/dog_id_validation_recall_per_breed.png"></p>
 
 The worst performing dog breed class was "Eskimo dog", with a recall score of just 3%. So, which other classes are "Eskimo dog" images being confused with? If I look at a confusion matrix, it appears that only two other classes are accounting for most of the errors: "malamute" and "Siberian husky".
 
-<p align="center"><img src="https://github.com/johnmburt/johnmburt.github.io/blob/master/images/projects/dog_id_validation_confusions.png"></p>
+<p align="center"><img src="https://johnmburt.github.io/images/projects/dog_id_validation_confusions.png"></p>
 
 Looking at some comparison images from each class is helpful way to track down the cause of the error: most of the images labeled "Eskimo dog" are actually huskies and malamutes: this is a labeling error. 
 
-<p align="center"><img src="https://github.com/johnmburt/johnmburt.github.io/blob/master/images/projects/dog_id_validation_confusions_examples.png" ></p>
+<p align="center"><img src="https://johnmburt.github.io/images/projects/dog_id_validation_confusions_examples.png" ></p>
 
 Other low performing classes had different issues: the same breed split into multiple size classes (Poodle), or different breeds that just look very similar (Lhasa Apso, Maltese Dog, Shi Tzu). Another problem I found was that the images aren't well curated: there are pictures of plush toys and dogs obscured by objects and barely visible. A serious effort to build a production quality dog breed predictor would require a cleaner dataset with more accurate labeling. Perhaps this would be a good use of [Amazon SageMaker Ground Truth](https://aws.amazon.com/sagemaker/groundtruth/).
 
