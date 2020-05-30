@@ -1,6 +1,8 @@
-# Reddit troll detector
+## Training a SageMaker Deep Learning model and deploying it as a microservice
 
-[Github project link](https://github.com/johnmburt/springboard/tree/master/capstone_1)
+![Dog mosaic](images/projects/dog_mosaic.png)
 
-The goal of this project was to build and test a toxic "troll" comment detector for subreddits on reddit, using NLP methods. I collected comments from 12 subreddits (subs) and labelled each comment as toxic or nontoxic based on comment metadata such as vote score. I tested performance of four classifier models trained with data from each sub: Multinomial Naive Bayes, Random Forest, XGBoost and a Recurrent Neural Network (RNN). I found that none of the classifiers performed particularly well (balanced accuracy metric, overall best: XGBoost at 65%, worst: RNN at 62%). Models differed in performance variance across sub datasets (highest balanced accuracy SEM: Random Forest at +/-3%, lowest: RNN at 1.5%), and differed in which subreddits they performed better or worse at. Taken together, I conclude that 1) further work needs to be done on model feature engineering and selection, and 2) while the RNN classifier performed lower than the other classifiers, it had the lowest performance variance across subreddits and was therefore more desirable. In the future I would recommend further improving the RNN model, using additional context and features.
 
+### Class project for AICamp Full Stack Deep Learning in AWS
+### John Burt
+#### March - April 2020
