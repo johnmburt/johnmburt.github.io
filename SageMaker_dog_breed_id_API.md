@@ -5,7 +5,7 @@
 ### John Burt
 #### May 2020
 
-<p align="center"><img src="https://github.com/johnmburt/repository/blob/branch/images/projects/dog_mosaic.png" width="500"></p>
+<p align="center"><img src="https://johnmburt.github.io/images/projects/dog_mosaic.png" width="500"></p>
 
 Imagine you’re an app developer, and you want to make a mobile app that tells users the breed of a dog just by pointing their phone at it and taking a picture. This seems like a pretty cool idea, and it could be applied to any number of other things people might want to identify like birds, flowers, cars, etc. The app would need a classifier to predict dog breed from an image, and the best models for that are Deep Learning neural networks like ResNet. But DL models are large and processing intensive, so you should host your dog breed classifier in the cloud where the mobile app can access it via an API. 
 
