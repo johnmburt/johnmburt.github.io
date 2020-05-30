@@ -75,14 +75,47 @@ There's a notebook in my github project folder that shows how to use the microse
 
 ### Testing model performance
 
-Before you deploy a model to production, it's a good idea to take a closer look at what the model is doing. How uniform is the model accuracy? Are there classes with poor performance, and if so, why and how can this be fixed? 
+Before you deploy a model to production, it's important to take a closer look at what the model is doing. How uniform is the model accuracy? Are there classes with poor performance, and if so, why and how can this be fixed? 
+
+I [analyzed the trained model performance in more detail](https://github.com/johnmburt/projects/blob/master/AWS/sagemaker_dog_breed_id/dog_breed_id_test_API_valset.ipynb) by evaluating performance of a the test image set across classes. The model has 83% validation accuracy overall, but accuracy was not uniform: some classes performed better and others much worse.
 
 ![Dog mosaic](https://github.com/johnmburt/johnmburt.github.io/blob/master/images/projects/dog_id_validation_recall_per_breed.png)
 
+The worst performing dog breed class was "Eskimo dog", with a recall score of just 3%. So, which other classes are "Eskimo dog" images being confused with? If I look at a confusion matrix, it appears that only two other classes are accounting for most of the errors: "malamute" and "Siberian husky".
+
 ![Dog mosaic](https://github.com/johnmburt/johnmburt.github.io/blob/master/images/projects/dog_id_validation_confusions.png)
+
+Looking at some comparison images from each class is helpful way to track down the cause of the error: most of the images classified "Eskimo dog" are actually huskies and malamutes: this is a labeling error. 
 
 ![Dog mosaic](https://github.com/johnmburt/johnmburt.github.io/blob/master/images/projects/dog_id_validation_confusions_examples.png)
 
+Other low performing classes had different issues: the same breed split into multiple size classes (Poodle), or different breeds that just look very similar (Lhasa Apso, Maltese Dog, Shi Tzu). Another problem I found was that the images aren't well curated: there are pictures of plush toys and dogs obscured by objects and barely visible. A serious effort to build a production quality dog breed predictor would require a cleaner dataset with more accurate labeling. Perhaps this would be a good use of [Amazon SageMaker Ground Truth](https://aws.amazon.com/sagemaker/groundtruth/).
 
+
+## Results summary:
+
+Training the model was a fairly simple procedure, though sometimes it was a bit fussy to get everything configured just right. The classifier performed very well overall, with most classes at > 80% recall. Hyperparameter tuning was more complicated, and was expensive, since every training run cost money to complete. I would not recommend hyperparameter tuning except as an exercise, your model is performing badly or you're planning to deploy the model in production. For manual tuning, it helped to tune with a simpler task (in this case, classify only 10 breeds rather than the full 120), which greatly reduced training time.
+
+Setting up the inference microservice was also reasonably simple, though again, there were some details that took me a while to figure out. However, once you know what to do, it is a suprisingly simple procedure. 
+
+## Project notebooks:
+
+####  [Project overview document](https://github.com/johnmburt/projects/blob/master/AWS/sagemaker_dog_breed_id/readme.md)
+- This document goes into more detail about how each part of the project was set up on AWS: model training, creating IAM roles, Lambda setup, API configuration.
+
+#### [Generate LST files for SageMaker model training and validation](https://github.com/johnmburt/projects/blob/master/AWS/sagemaker_dog_breed_id/dog_breed_id_test_API_manual.ipynb)
+- Generates the LST files necessary to train and test the model using SageMaker explorer. LST files describe the samples to use for training and testing the model. These files are uploaded to the S3 bucket folder that contains the train/test images and are used in the training job setup. This script allows you to specify a subset of classes to train (for model tuning), or all classes (final model training).
+
+#### [Get sample info on a generated LST file set](https://github.com/johnmburt/projects/blob/master/AWS/sagemaker_dog_breed_id/dog_breed_classifier_get_LST_info.ipynb)
+- This notebook shows how to read a LST file and print details about the classes. It can be used to get info for setting up hyperparams for a Sagemaker training job. Particularly the model definition will want to know number of classes and max number of samples in the training set.
+
+#### [The Lambda function](https://github.com/johnmburt/projects/blob/master/AWS/sagemaker_dog_breed_id/dog_breed_id_lambda_function.ipynb)
+- This is the function used by the Lambda service to pass images received via the API to the model endpoint for inference. You would paste this script into the Lambda during setup. This code was modified from the one presented in class to allow batches of images to be passed in one API call. 
+
+#### [Test the API by sending a dog image](https://github.com/johnmburt/projects/blob/master/AWS/sagemaker_dog_breed_id/dog_breed_id_test_API_manual.ipynb)
+- Manually test the trained model instance, via an AWS Gateway API call. This notebook lets you select a local image file, prepares the image data, passes it to the model for inference, then displays results.
+
+#### [Analyze classifier performance via the API](https://github.com/johnmburt/projects/blob/master/AWS/sagemaker_dog_breed_id/dog_breed_id_test_API_valset.ipynb)
+- Analyze the trained model performance in more detail by evaluating performance of a the test image set across classes. The model has 83% validation accuracy overall, but is that uniform, or are there some classes that perform better and others worse? I did find several "problem" classes in this analysis.
 
 
