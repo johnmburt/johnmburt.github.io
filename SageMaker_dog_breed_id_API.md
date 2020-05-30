@@ -1,6 +1,6 @@
 # Training a SageMaker Deep Learning model and deploying it as a microservice
 
-## How I trained a SageMaker image classifier model to ID dog breeds from image, and exposed the model on Amazon’s API Gateway.
+## How I trained an image classifier model to predict dog breeds entirely from Amazon’s AWS Console website.
 
 ### John Burt
 #### May 2020
