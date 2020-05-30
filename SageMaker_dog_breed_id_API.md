@@ -101,7 +101,7 @@ Setting up the inference microservice was also reasonably simple, though again, 
 ## Project notebooks:
 
 ####  [Project overview document](https://github.com/johnmburt/projects/blob/master/AWS/sagemaker_dog_breed_id/readme.md)
-- This document goes into more detail about how each part of the project was set up on AWS: model training, creating IAM roles, Lambda setup, API configuration.
+- A duplication of this blog post, but I added an appendix at the end that shows more detail how each part of the project was set up on AWS: model training, creating IAM roles, Lambda setup, API configuration.
 
 #### [Generate LST files for SageMaker model training and validation](https://github.com/johnmburt/projects/blob/master/AWS/sagemaker_dog_breed_id/dog_breed_id_test_API_manual.ipynb)
 - Generates the LST files necessary to train and test the model using SageMaker explorer. LST files describe the samples to use for training and testing the model. These files are uploaded to the S3 bucket folder that contains the train/test images and are used in the training job setup. This script allows you to specify a subset of classes to train (for model tuning), or all classes (final model training).
