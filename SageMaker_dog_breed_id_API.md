@@ -85,7 +85,7 @@ The worst performing dog breed class was "Eskimo dog", with a recall score of ju
 
 ![Dog mosaic](https://github.com/johnmburt/johnmburt.github.io/blob/master/images/projects/dog_id_validation_confusions.png)
 
-Looking at some comparison images from each class is helpful way to track down the cause of the error: most of the images classified "Eskimo dog" are actually huskies and malamutes: this is a labeling error. 
+Looking at some comparison images from each class is helpful way to track down the cause of the error: most of the images labeled "Eskimo dog" are actually huskies and malamutes: this is a labeling error. 
 
 ![Dog mosaic](https://github.com/johnmburt/johnmburt.github.io/blob/master/images/projects/dog_id_validation_confusions_examples.png)
 
