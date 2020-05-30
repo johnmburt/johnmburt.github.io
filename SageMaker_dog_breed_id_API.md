@@ -5,7 +5,7 @@
 ### John Burt
 #### May 2020
 
-![Dog mosaic](images/projects/dog_mosaic.png)
+![Dog mosaic](https://github.com/johnmburt/johnmburt.github.io/blob/master/images/projects/dog_mosaic.png)
 
 Imagine you’re an app developer, and you want to make a mobile app that tells users the breed of a dog just by pointing their phone at it and taking a picture. This seems like a pretty cool idea, and it could be applied to any number of other things people might want to identify like birds, flowers, cars, etc. The app would need a classifier to predict dog breed from an image, and the best models for that are Deep Learning neural networks like ResNet. But DL models are large and processing intensive, so you should host your dog breed classifier in the cloud where the mobile app can access it via an API. 
 
@@ -77,12 +77,11 @@ There's a notebook in my github project folder that shows how to use the microse
 
 Before you deploy a model to production, it's a good idea to take a closer look at what the model is doing. How uniform is the model accuracy? Are there classes with poor performance, and if so, why and how can this be fixed? 
 
-![Dog mosaic](images/projects/dog_id_validation_recall_per_breed.png)
+![Dog mosaic](https://github.com/johnmburt/johnmburt.github.io/blob/master/images/projects/dog_id_validation_recall_per_breed.png)
 
+![Dog mosaic](https://github.com/johnmburt/johnmburt.github.io/blob/master/images/projects/dog_id_validation_confusions.png)
 
-![Dog mosaic](images/projects/dog_id_validation_confusions.png)
-
-![Dog mosaic](images/projects/dog_id_validation_confusions_examples.png)
+![Dog mosaic](https://github.com/johnmburt/johnmburt.github.io/blob/master/images/projects/dog_id_validation_confusions_examples.png)
 
 
 
