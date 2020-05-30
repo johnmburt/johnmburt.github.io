@@ -9,6 +9,7 @@
 
 Imagine you’re an app developer, and you want to make a mobile app that tells users the breed of a dog just by pointing their phone at it and taking a picture. This seems like a pretty cool idea, and it could be applied to any number of other things people might want to identify like birds, flowers, cars, etc. The app will need a classifier model to predict the dog breed from an image, and the best models for that are Deep Learning neural networks like ResNet. But DL models are large and processing intensive, so you choose to host your dog breed classifier in the cloud where the mobile app can access it via an API. 
 
+
 Luckily for you, AWS SageMaker makes it incredibly easy to build, train and tune machine learning models in the cloud. Once you have a trained model it’s a simple step to implement a scalable inference microservice using the AWS API Gateway. In this post I’ll take you through the basic steps for how to do this using a project I created for AICamp’s class Full Stack Deep Learning in AWS. For this project I did everything from the AWS Management Console. 
 
 Project github site: [Dog breed identification from images](https://github.com/johnmburt/projects/tree/master/AWS/sagemaker_dog_breed_id)
@@ -21,6 +22,7 @@ If I’m going to build a Deep Learning model to ID dog breeds, then I’ll need
 ### The model
 
 SageMaker offers a built-in [image-classifier, which is a ResNet deep learning model](https://docs.aws.amazon.com/sagemaker/latest/dg/image-classification.html). ResNet is a large convolutional neural network, and would normally need a lot more training images than the Stanford Dogs dataset provides, but [SageMaker offers the option of transfer learning](https://docs.aws.amazon.com/sagemaker/latest/dg/IC-HowItWorks.html), which greatly reduces the number of training images required as well as training time. Transfer learning is a procedure where the network is pre-trained to a generic classification task with a very large image dataset, and then you re-train the model using your training set. 
+
 
 Another training feature that SageMaker provides is [early stopping](https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning-early-stopping.html), where the training job will stop if the model loss metric doesn’t improve or gets worse. Early stopping and transfer learning greatly reduced training times, which resulted in much lower compute costs per job.
 
@@ -51,6 +53,7 @@ You can read about all the SageMaker image classifier [hyperparameters here](htt
 ### The training job
 
 For the model training job I needed to specify the class of each image, as well as which images to use for training and which to use for testing (validation). To do that, I [generated a set of tab delimited text files](https://github.com/johnmburt/projects/blob/master/AWS/sagemaker_dog_breed_id/dog_breed_classifier_gen_LST.ipynb), one for training and one for testing (dog_breeds_all_fold_1_train.lst and dog_breeds_all_fold_1_test.lst), that listed the class ID and path of each training image (training and testing image sets were mutually exclusive). These LST files were placed into the dogs folder on the s3 bucket used for model training. 
+
 
 From the AWS SageMaker Studio console, I created a training job, selecting the image classifier model and configuring the hyperparameters as above, telling the job where to find the images and the LST files, and specifying additional configurations and an access management role for the model server instance. The training job took 2.7 hrs (costing around $7), and final validation accuracy was 83%.
 
