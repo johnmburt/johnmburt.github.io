@@ -21,6 +21,13 @@
 
 ---
 
+## Whale song detector
+<a href="https://github.com/johnmburt/projects/tree/master/ACO_whale_detector">
+<img src="images/projects/aco_diurnal_song detection_freq.png" width="400" />
+</a>
+
+---
+
 ## Music genre ID
 <a href="https://github.com/johnmburt/projects/tree/master/music_genre_id">
 <img src="images/projects/harmonic_decomp.png" width="400" />
