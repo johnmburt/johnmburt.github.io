@@ -21,6 +21,13 @@
 
 ---
 
+## A/B testing simulator
+<a href="https://github.com/johnmburt/projects/tree/master/AB_simulation">
+<img src="images/projects/ab_sim_1_prefs.png" width="400" />
+</a>
+
+---
+
 ## Whale song detector
 <a href="https://github.com/johnmburt/projects/tree/master/ACO_whale_detector">
 <img src="images/projects/aco_diurnal_song detection_freq.png" width="400" />
