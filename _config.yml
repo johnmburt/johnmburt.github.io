@@ -1,7 +1,7 @@
 title: John Burt # your name (or website title) here
-logo: "/images/20190210_104052_john_portrait_v3_smaller.png" # your photo (or logo) here
+#logo: "/images/20190210_104052_john_portrait_v3_smaller.png" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  I'm a Data Scientist with a research science and coding background.
+  I'm a Portland Oregon based Data Scientist with a research science and coding background.
   <br>
   <br>
   <a href="https://johnmburt.github.io/about_me">About me</a> 
